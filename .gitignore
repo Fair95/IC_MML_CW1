@@ -1,0 +1,5 @@
+testing/solution.py
+*.json
+
+.idea/
+__pycache__
