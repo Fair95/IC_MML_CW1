@@ -136,7 +136,6 @@ def leave_one_out_cross_validation(model, X, Y):
     variance = 0
     for i in range(N):
         X_train = np.vstack((X[:i], X[i+1:]))
-        print(i, X_train.shape)
         X_test = X[i]
 
         Y_train = np.vstack((Y[:i], Y[i+1:]))
